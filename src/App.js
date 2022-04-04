@@ -10,6 +10,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Reviews from './Components/Reviews/Reviews';
+import TopThreeReviews from './Components/TopThreeReviews/TopThreeReviews';
 
 export const ClothContext = createContext();
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/customersreview" element={<CustomersReview></CustomersReview>}></Route>
           <Route path="/blogs" element={<Blogs></Blogs>}></Route>
           <Route path="/aboutus" element={<AboutUs></AboutUs>}></Route>
+          <Route path="/home/:topreviews" element={<TopThreeReviews></TopThreeReviews>}></Route>
           <Route path="*" element={<NotFound></NotFound>}></Route>
 
         </Routes>

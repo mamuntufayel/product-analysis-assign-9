@@ -9,7 +9,7 @@ const Reviews = () => {
         <div>
             <p className=' text-5xl text-slate-600 hover:text-rose-200 transition-transform'>Here is some Reviews</p>
 
-            <div className=' grid grid-cols-3'>
+            <div className=' grid grid-cols-3 gap-3'>
                 {
                     clothes.map(cloth => <CustomersReview
                         key={cloth._id}
