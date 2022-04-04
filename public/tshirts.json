@@ -64,5 +64,27 @@
     "review": "It's a very good product.I am recomending this product",
     "customername": "Sean",
     "ratings": "5 Stars"
+  },
+  {
+    "_id": "623853b2cdda0d5bc294f791",
+    "index": 5,
+    "picture": "https://m.media-amazon.com/images/I/61GMJ+3ekAS._AC_UL320_.jpg",
+    "name": "Right lula",
+    "price": 141,
+    "gender": "male",
+    "review": "It's a very good product.I am recomending this product",
+    "customername": "Suma",
+    "ratings": "4.6 Stars"
+  },
+  {
+    "_id": "623853b2cdda0d5bc294f791",
+    "index": 5,
+    "picture": "https://m.media-amazon.com/images/I/61GMJ+3ekAS._AC_UL320_.jpg",
+    "name": "Nice line",
+    "price": 141,
+    "gender": "male",
+    "review": "It's a very good product.I am recomending this product",
+    "customername": "Jumon",
+    "ratings": "4.8 Stars"
   }
 ]
