@@ -7,7 +7,8 @@
     "name": "Just Chill",
     "gender": "Just Chill",
     "review": "It's a very good product.I am recomending this product",
-    "customername": "Rohim Ali"
+    "customername": "Rohim Ali",
+    "ratings": "5 Stars"
   },
   {
     "_id": "623853b2578e9e6ad1ae0dd5",
@@ -17,7 +18,8 @@
     "price": 27,
     "gender": "Keep Coding",
     "review": "It's a very good product.I am recomending this product",
-    "customername": "Bokul Ali"
+    "customername": "Bokul Ali",
+    "ratings": "5 Stars"
   },
   {
     "_id": "623853b21fb149d2ee7b76c7",
@@ -27,7 +29,8 @@
     "price": 24,
     "gender": "",
     "review": "It's a very good product.I am recomending this product",
-    "customername": "Mr. Ben"
+    "customername": "Mr. Ben",
+    "ratings": "5 Stars"
   },
   {
     "_id": "623853b2e91c8de578c9245e",
@@ -37,7 +40,8 @@
     "price": 14,
     "gender": "Mix Yellow",
     "review": "It's a very good product.I am recomending this product",
-    "customername": "Alex"
+    "customername": "Alex",
+    "ratings": "5 Stars"
   },
   {
     "_id": "623853b2239582e48409ccc6",
@@ -47,7 +51,8 @@
     "name": "Bachelor",
     "gender": "male",
     "review": "It's a very good product.I am recomending this product",
-    "customername": "Afridi"
+    "customername": "Afridi",
+    "ratings": "5 Stars"
   },
   {
     "_id": "623853b2cdda0d5bc294f791",
@@ -57,7 +62,8 @@
     "price": 141,
     "gender": "male",
     "review": "It's a very good product.I am recomending this product",
-    "customername": "Sued"
+    "customername": "Sued",
+    "ratings": "5 Stars"
   },
   {
     "_id": "623853b2736f19fd4eb8d44a",
@@ -67,6 +73,7 @@
     "name": "Black Skull",
     "gender": "female",
     "review": "It's a very good product.I am recomending this product",
-    "customername": "Sean"
+    "customername": "Sean",
+    "ratings": "5 Stars"
   }
 ]

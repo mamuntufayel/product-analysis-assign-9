@@ -1,9 +1,14 @@
 import React from 'react';
+import './CustomersReview.css'
 
-const CustomersReview = () => {
+const CustomersReview = (props) => {
+    const { review, picture, customername, ratings } = props.cloth;
     return (
-        <div>
-            <p>this is customers review</p>
+        <div className='each-container flex flex-col items-center border-2 gap-5'>
+            <img src={picture} alt="" />
+            <p>Customer Name:{customername}</p>
+            <p className=' w-3/4'>Review:{review}</p>
+            <p>Ratings: {ratings}</p>
         </div>
     );
 };
