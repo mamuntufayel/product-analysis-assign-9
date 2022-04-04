@@ -2,6 +2,8 @@
 import { createContext, useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AboutUs from './Components/About Us/AboutUs';
+import Blogs from './Components/Blogs/Blogs';
 import CustomersReview from './Components/CustomersReview/CustomersReview';
 import DashBoard from './Components/Dashboard/DashBoard';
 import Header from './Components/Header/Header';
@@ -31,6 +33,8 @@ function App() {
           <Route path="/reviews" element={<Reviews></Reviews>}></Route>
           <Route path="/dashboard" element={<DashBoard></DashBoard>}></Route>
           <Route path="/customersreview" element={<CustomersReview></CustomersReview>}></Route>
+          <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+          <Route path="/aboutus" element={<AboutUs></AboutUs>}></Route>
           <Route path="*" element={<NotFound></NotFound>}></Route>
 
         </Routes>

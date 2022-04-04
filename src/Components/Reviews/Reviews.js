@@ -7,8 +7,8 @@ const Reviews = () => {
     // console.log(clothes)
     return (
         <div>
-            <h3 className=' text-5xl text-slate-600'>This is review page!!!</h3>
-            <h2 className=' text-3xl'>number: {clothes.length}</h2>
+            <p className=' text-5xl text-slate-600 hover:text-rose-200 transition-transform'>Here is some Reviews</p>
+
             <div className=' grid grid-cols-3'>
                 {
                     clothes.map(cloth => <CustomersReview
