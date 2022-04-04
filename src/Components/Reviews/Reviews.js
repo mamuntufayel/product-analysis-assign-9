@@ -1,9 +1,11 @@
 import React, { useContext } from 'react';
 import { ClothContext } from '../../App';
+import useProducts from '../../Hooks/Useproducts';
 import CustomersReview from '../CustomersReview/CustomersReview';
 
 const Reviews = () => {
-    const [clothes, setClothes] = useContext(ClothContext);
+    // const [clothes, setClothes] = useContext(ClothContext);
+    const [clothes, setClothes] = useProducts();
     // console.log(clothes)
     return (
         <div>

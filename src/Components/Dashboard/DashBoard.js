@@ -43,9 +43,9 @@ const DashBoard = () => {
 
     return (
         <div className=' flex md:justify-between my-16'>
-            <div>
+            <div className=' mx-15'>
                 <h1 className=' text-2xl'>Monthly investment-revenue chart</h1>
-                <AreaChart width={730} height={250} data={data}
+                <AreaChart width={530} height={250} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
                         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -65,9 +65,9 @@ const DashBoard = () => {
                     <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
                 </AreaChart>
             </div>
-            <div>
+            <div className=' px-15'>
                 <h1 className=' text-2xl'>Monthly investment-revenue chart</h1>
-                <BarChart width={730} height={250} data={data}>
+                <BarChart width={530} height={250} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
                     <YAxis />

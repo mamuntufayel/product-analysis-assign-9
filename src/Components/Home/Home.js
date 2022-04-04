@@ -15,9 +15,9 @@ const Home = () => {
                      text-xl text-stone-800 bg-orange-200 mx-auto  mr-52'>Explore a demo</button>
 
                 </div>
-                <div className="img-compartment ">
+                <div className="img-compartment">
 
-                    <img src="image.jpg" alt="" />
+                    <img className=' pr-12' src="image.jpg" alt="" />
                 </div>
             </div>
             <TopThreeReviews></TopThreeReviews>
