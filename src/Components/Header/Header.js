@@ -5,7 +5,7 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <nav className=' text-xl flex inline-flex '>
+        <nav className=' text-xl flex inline-flex mt-6'>
 
             <CustomLink className=' font-mono text-slate-900 font-semibold mx-5' to="/">HOME</CustomLink>
             <CustomLink className=' font-mono text-slate-900 font-semibold mx-5' to="/reviews">REVIEWS</CustomLink>

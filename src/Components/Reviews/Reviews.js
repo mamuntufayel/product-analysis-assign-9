@@ -7,7 +7,7 @@ const Reviews = () => {
     // console.log(clothes)
     return (
         <div>
-            <p className=' text-5xl text-slate-600 hover:text-rose-200 transition-transform mt-12 mb-24'>Here is some Reviews</p>
+            <p className=' text-5xl text-slate-600 hover:text-rose-200 transition-transform mt-12 mb-24'>Here is our recent Reviews</p>
 
             <div className=' grid grid-cols-3 gap-3'>
                 {

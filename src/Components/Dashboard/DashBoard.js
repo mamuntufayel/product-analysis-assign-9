@@ -44,7 +44,7 @@ const DashBoard = () => {
     return (
         <div className=' flex md:justify-between my-16'>
             <div>
-
+                <h1 className=' text-2xl'>Monthly investment-revenue chart</h1>
                 <AreaChart width={730} height={250} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
@@ -58,21 +58,22 @@ const DashBoard = () => {
                         </linearGradient>
                     </defs>
                     <XAxis dataKey="month" />
-                    <YAxis dataKey="sell" />
+                    <YAxis />
                     <CartesianGrid strokeDasharray="3 3" />
                     <Tooltip />
-                    <Area type="monotone" dataKey="month" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
-                    <Area type="monotone" dataKey="sell" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
+                    <Area type="monotone" dataKey="investment" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
+                    <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
                 </AreaChart>
             </div>
             <div>
+                <h1 className=' text-2xl'>Monthly investment-revenue chart</h1>
                 <BarChart width={730} height={250} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
-                    <YAxis dataKey="revenue" />
+                    <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="month" fill="#8884d8" />
+                    <Bar dataKey="investment" fill="#8884d8" />
                     <Bar dataKey="revenue" fill="#82ca9d" />
                 </BarChart>
             </div>

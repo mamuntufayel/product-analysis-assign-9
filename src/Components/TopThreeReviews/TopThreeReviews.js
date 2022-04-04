@@ -8,7 +8,7 @@ const TopThreeReviews = () => {
     const [clothes, setClothes] = useContext(ClothContext);
     return (
         <div>
-            <p>Customers Reviews</p>
+            <p className=' text-2xl font-mono font-semibold text-slate-800 mt-11 mb-5'>Customers Reviews</p>
             <div className=' grid grid-cols-3 gap-3 px-48'>
                 {
                     clothes.slice(0, 3).map(cloth => <ThreeReviews
