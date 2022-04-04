@@ -9,7 +9,7 @@ const TopThreeReviews = () => {
     return (
         <div>
             <p>Customers Reviews</p>
-            <div className=' grid grid-cols-3 gap-3'>
+            <div className=' grid grid-cols-3 gap-3 px-48'>
                 {
                     clothes.slice(0, 3).map(cloth => <ThreeReviews
                         cloth={cloth}

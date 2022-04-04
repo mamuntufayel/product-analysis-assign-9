@@ -6,6 +6,7 @@ import AboutUs from './Components/About Us/AboutUs';
 import Blogs from './Components/Blogs/Blogs';
 import CustomersReview from './Components/CustomersReview/CustomersReview';
 import DashBoard from './Components/Dashboard/DashBoard';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
@@ -38,9 +39,8 @@ function App() {
           <Route path="/aboutus" element={<AboutUs></AboutUs>}></Route>
           <Route path="/home/:topreviews" element={<TopThreeReviews></TopThreeReviews>}></Route>
           <Route path="*" element={<NotFound></NotFound>}></Route>
-
         </Routes>
-
+        <Footer></Footer>
       </div>
     </ClothContext.Provider>
   );
